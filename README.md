@@ -33,3 +33,16 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 * Update Department
 * Delete Department
 * View Departments
+
+## Roles
+### ROLE_ADMIN
+
+* Manage Employees _**(CREATE, READ, UPDATE, DELETE)**_
+* Manage Departments _**(CREATE, READ, UPDATE, DELETE)**_
+* Access all secured operation
+
+### ROLE_USER
+* View Employees
+* View Departments
+* Search Employees
+* **Restricted** From **CREATE / UPDATE/ DELETE** operations
