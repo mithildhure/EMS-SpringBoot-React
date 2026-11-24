@@ -75,22 +75,24 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 
 ## Project Structure
 
-**backend**
+```text
+backend/
 |
-|-- config
-|-- controller
-|-- dto
-|-- entity
-├── enums
-├── repository
-├── service
-├── security
-└── exception
+├── config/
+├── controller/
+├── dto/
+├── entity/
+├── enums/
+├── repository/
+├── service/
+├── security/
+└── exception/
 
-**frontend**
+frontend/
 │
-├── auth
-├── employee
-├── department
-├── common
-└── assets
+├── auth/
+├── employee/
+├── department/
+├── common/
+└── assets/
+```
