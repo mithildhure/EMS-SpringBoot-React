@@ -129,3 +129,61 @@ frontend/
 | otpId |        email        | otpCode |      otpType       | expiryAt | OtpVerified |
 | ------|:-------------------:|:-------:|:------------------:|:--------:|:-----------:|
 |     1 | tommyv123@gmail.com |  234127 | EMAIL_VERIFICATION |    10:00 |       FALSE |
+
+## Entity Relationships
+
+> UserModel
+>> Many-To-Many
+> RoleModel
+
+> DepartmentModel
+>> One-To-Many
+> EmployeeModel
+
+> EmployeeModel
+>> Many-To-One
+> DepartmentModel
+
+## API Endpoints
+### Authentication APIs
+
+```text
+
+POST    /auth/register
+POST    /auth/login
+POST    /auth/forgot-password
+POST    /auth/reset-password 
+
+```
+
+### OTP APIs
+```text
+
+POST    /otp/verify-email
+POST    /otp/verify-resetpass
+POST    /otp/resend
+
+```
+
+### Employee APIs
+```text
+
+GET     /emp/home
+POST    /emp/add
+PUT     /emp/update/{id}
+DELETE  /emp/delete/{id}
+GET     /emp/search/{keyword}
+
+```
+
+### Department APIs
+
+```text
+
+GET     /dept/home
+POST    /dept/add
+PUT     /dept/update/{id}
+DELETE  /dept/delete/{id}
+
+```
+
