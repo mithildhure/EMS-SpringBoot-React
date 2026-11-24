@@ -76,11 +76,11 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 ## Project Structure
 
 **backend**
-│
-├── config
-├── controller
-├── dto
-├── entity
+|
+|-- config
+|-- controller
+|-- dto
+|-- entity
 ├── enums
 ├── repository
 ├── service
