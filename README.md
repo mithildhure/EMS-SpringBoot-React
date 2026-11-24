@@ -72,3 +72,25 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 * Bootstrap
 * Vite
 * ESLint / OxLint
+
+## Project Structure
+
+**backend**
+|
+├── config
+├── controller
+├── dto
+├── entity
+├── enums
+├── repository
+├── service
+├── security
+└── exception
+
+**frontend**
+|
+├── auth
+├── employee
+├── department
+├── common
+└── assets
