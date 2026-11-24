@@ -45,4 +45,30 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 * View Employees
 * View Departments
 * Search Employees
-* **Restricted** From **CREATE / UPDATE/ DELETE** operations
+* **Restricted** From **CREATE / UPDATE / DELETE** operations
+
+## Tech Stack
+### Backend
+
+* Java 
+* Spring Boot
+* Spring Data JPA
+* Spring Security
+* Spring Validation
+* Spring Mail
+* OAuth2 Resource Server (_**JWT**_)
+* H2 Database
+* Lombok
+* Maven
+* Spring Boot DevTools
+
+### Frontend
+
+* Node
+* React
+* React DOM
+* React Router DOM
+* Axios
+* Bootstrap
+* Vite
+* ESLint / OxLint
