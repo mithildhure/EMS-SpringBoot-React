@@ -76,7 +76,7 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 ## Project Structure
 
 **backend**
-|
+│
 ├── config
 ├── controller
 ├── dto
@@ -88,7 +88,7 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 └── exception
 
 **frontend**
-|
+│
 ├── auth
 ├── employee
 ├── department
