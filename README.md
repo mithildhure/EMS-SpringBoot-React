@@ -179,3 +179,27 @@ PUT     /dept/update/{id}
 DELETE  /dept/delete/{id}
 ```
 
+## Security Features
+
+* JWT Token-Based Authentication
+* Stateless Session Management
+* Role-Based Authorization
+* Protected REST APIs
+* Email Verification Enforcement
+* BCrypt Password Encryption
+* Spring Security Resource Server
+
+## Future Enhancements
+
+* MySQL/PostgreSQL Migration v1.1
+* Custom Exception Handling v1.2
+* Refresh Tokens v1.3
+* OAuth2 Login (Google) v1.4
+* Responsive Dashboard v1.5
+* Custom Theme v1.6
+* Profile Management v1.7
+
+# Author
+## [Mithil Dhure](https://www.linkedin.com/in/mithil-dhure)
+
+_Built for learning **Spring Security, JWt Authentication, React Integeration, OTP Verification** and **Role-Based Access Control (RBAC)**_
