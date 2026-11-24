@@ -96,3 +96,36 @@ frontend/
 ├── common/
 └── assets/
 ```
+
+## Database Design
+### UserModel
+
+| userId | username |       email        | password | emailVerified |
+| ------ |:--------:|:------------------:|:--------:|:-------------:|
+|      1 |   mithil | dummy123@gmail.com | ******** |    FALSE      |
+
+### Role Model
+
+| roleId |  roleName  |
+| ------ |:----------:|
+|      1 | ROLE_ADMIN |
+|      2 | ROLE_USER  |
+
+### Employee Model
+
+| empId | empFirstName | empLastName |    empUsernam    | empAge |  empPhone  |      empEmail       | empSalary | empAddress | empJobTitle |  empType  | empShift |
+| ----- |:------------:|:-----------:|:----------------:|:------:|:----------:|:-------------------:|:---------:|:----------:|:-----------:|:---------:|:--------:|
+|     1 |        Tommy |    Vercetti | tommyvercetti123 |     22 | 1234567890 | tommyv123@gmail.com | 230000000 |  Vice City |  Accountant | FULL_TIME |      DAY |
+
+### Department Model
+| deptId | deptName |
+| ------ |:--------:|
+|      1 | Accounts |
+|      2 |       HR |
+|      3 |       IT |
+|      4 |    Sales |
+
+### Otp Model
+| otpId |        email        | otpCode |      otpType       | expiryAt | OtpVerified |
+| ------|:-------------------:|:-------:|:------------------:|:--------:|:-----------:|
+|     1 | tommyv123@gmail.com |  234127 | EMAIL_VERIFICATION |    10:00 |       FALSE |
