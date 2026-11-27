@@ -191,7 +191,7 @@ DELETE  /dept/delete/{id}
 
 ## Future Enhancements
 
-* MySQL/PostgreSQL Migration v1.1 (Done)
+* MySQL Migration v1.1 (Done)
 * Custom Exception Handling v1.2
 * Refresh Tokens v1.3
 * OAuth2 Login (Google) v1.4
