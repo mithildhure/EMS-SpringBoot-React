@@ -1,4 +1,4 @@
-# Employee Management System (EMS) v1.0
+# Employee Management System (EMS) v1.1
 
 **Employee Management System(EMS)** is a full-stack web application built using **Spring Boot** and **React** that provides secure employee and department management.
 
@@ -191,7 +191,7 @@ DELETE  /dept/delete/{id}
 
 ## Future Enhancements
 
-* MySQL/PostgreSQL Migration v1.1
+* MySQL/PostgreSQL Migration v1.1 (Done)
 * Custom Exception Handling v1.2
 * Refresh Tokens v1.3
 * OAuth2 Login (Google) v1.4
