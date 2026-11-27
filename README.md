@@ -57,7 +57,7 @@ _The application implements **JWT Authentication, Role-Based Access Control (RBA
 * Spring Validation
 * Spring Mail
 * OAuth2 Resource Server (_**JWT**_)
-* H2 Database
+* MySQL Connector
 * Lombok
 * Maven
 * Spring Boot DevTools
